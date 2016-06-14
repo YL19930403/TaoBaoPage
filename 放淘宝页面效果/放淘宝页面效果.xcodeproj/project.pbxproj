@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292C008A1D0FED3300849BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00891D0FED3300849BAD /* AppDelegate.swift */; };
+		292C008C1D0FED3300849BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C008B1D0FED3300849BAD /* ViewController.swift */; };
+		292C008F1D0FED3300849BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292C008D1D0FED3300849BAD /* Main.storyboard */; };
+		292C00921D0FED3300849BAD /* _______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 292C00901D0FED3300849BAD /* _______.xcdatamodeld */; };
+		292C00941D0FED3300849BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292C00931D0FED3300849BAD /* Assets.xcassets */; };
+		292C00971D0FED3300849BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292C00951D0FED3300849BAD /* LaunchScreen.storyboard */; };
+		292C00A21D0FED3300849BAD /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00A11D0FED3300849BAD /* _______Tests.swift */; };
+		292C00AD1D0FED3300849BAD /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00AC1D0FED3300849BAD /* _______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292C009E1D0FED3300849BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292C007E1D0FED3300849BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292C00851D0FED3300849BAD;
+			remoteInfo = "放淘宝页面效果";
+		};
+		292C00A91D0FED3300849BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292C007E1D0FED3300849BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292C00851D0FED3300849BAD;
+			remoteInfo = "放淘宝页面效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		292C00861D0FED3300849BAD /* 放淘宝页面效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "放淘宝页面效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292C00891D0FED3300849BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		292C008B1D0FED3300849BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		292C008E1D0FED3300849BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		292C00911D0FED3300849BAD /* _______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_______.xcdatamodel"; sourceTree = "<group>"; };
+		292C00931D0FED3300849BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292C00961D0FED3300849BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		292C00981D0FED3300849BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292C009D1D0FED3300849BAD /* 放淘宝页面效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "放淘宝页面效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292C00A11D0FED3300849BAD /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		292C00A31D0FED3300849BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292C00A81D0FED3300849BAD /* 放淘宝页面效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "放淘宝页面效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		292C00AC1D0FED3300849BAD /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
+		292C00AE1D0FED3300849BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292C00831D0FED3300849BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292C009A1D0FED3300849BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292C00A51D0FED3300849BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292C007D1D0FED3300849BAD = {
+			isa = PBXGroup;
+			children = (
+				292C00881D0FED3300849BAD /* 放淘宝页面效果 */,
+				292C00A01D0FED3300849BAD /* 放淘宝页面效果Tests */,
+				292C00AB1D0FED3300849BAD /* 放淘宝页面效果UITests */,
+				292C00871D0FED3300849BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		292C00871D0FED3300849BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292C00861D0FED3300849BAD /* 放淘宝页面效果.app */,
+				292C009D1D0FED3300849BAD /* 放淘宝页面效果Tests.xctest */,
+				292C00A81D0FED3300849BAD /* 放淘宝页面效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		292C00881D0FED3300849BAD /* 放淘宝页面效果 */ = {
+			isa = PBXGroup;
+			children = (
+				292C00891D0FED3300849BAD /* AppDelegate.swift */,
+				292C008B1D0FED3300849BAD /* ViewController.swift */,
+				292C008D1D0FED3300849BAD /* Main.storyboard */,
+				292C00931D0FED3300849BAD /* Assets.xcassets */,
+				292C00951D0FED3300849BAD /* LaunchScreen.storyboard */,
+				292C00981D0FED3300849BAD /* Info.plist */,
+				292C00901D0FED3300849BAD /* _______.xcdatamodeld */,
+			);
+			path = "放淘宝页面效果";
+			sourceTree = "<group>";
+		};
+		292C00A01D0FED3300849BAD /* 放淘宝页面效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				292C00A11D0FED3300849BAD /* _______Tests.swift */,
+				292C00A31D0FED3300849BAD /* Info.plist */,
+			);
+			path = "放淘宝页面效果Tests";
+			sourceTree = "<group>";
+		};
+		292C00AB1D0FED3300849BAD /* 放淘宝页面效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				292C00AC1D0FED3300849BAD /* _______UITests.swift */,
+				292C00AE1D0FED3300849BAD /* Info.plist */,
+			);
+			path = "放淘宝页面效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292C00851D0FED3300849BAD /* 放淘宝页面效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292C00B11D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果" */;
+			buildPhases = (
+				292C00821D0FED3300849BAD /* Sources */,
+				292C00831D0FED3300849BAD /* Frameworks */,
+				292C00841D0FED3300849BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "放淘宝页面效果";
+			productName = "放淘宝页面效果";
+			productReference = 292C00861D0FED3300849BAD /* 放淘宝页面效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		292C009C1D0FED3300849BAD /* 放淘宝页面效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292C00B41D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果Tests" */;
+			buildPhases = (
+				292C00991D0FED3300849BAD /* Sources */,
+				292C009A1D0FED3300849BAD /* Frameworks */,
+				292C009B1D0FED3300849BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292C009F1D0FED3300849BAD /* PBXTargetDependency */,
+			);
+			name = "放淘宝页面效果Tests";
+			productName = "放淘宝页面效果Tests";
+			productReference = 292C009D1D0FED3300849BAD /* 放淘宝页面效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292C00A71D0FED3300849BAD /* 放淘宝页面效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292C00B71D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果UITests" */;
+			buildPhases = (
+				292C00A41D0FED3300849BAD /* Sources */,
+				292C00A51D0FED3300849BAD /* Frameworks */,
+				292C00A61D0FED3300849BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292C00AA1D0FED3300849BAD /* PBXTargetDependency */,
+			);
+			name = "放淘宝页面效果UITests";
+			productName = "放淘宝页面效果UITests";
+			productReference = 292C00A81D0FED3300849BAD /* 放淘宝页面效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292C007E1D0FED3300849BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "余亮";
+				TargetAttributes = {
+					292C00851D0FED3300849BAD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					292C009C1D0FED3300849BAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 292C00851D0FED3300849BAD;
+					};
+					292C00A71D0FED3300849BAD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 292C00851D0FED3300849BAD;
+					};
+				};
+			};
+			buildConfigurationList = 292C00811D0FED3300849BAD /* Build configuration list for PBXProject "放淘宝页面效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 292C007D1D0FED3300849BAD;
+			productRefGroup = 292C00871D0FED3300849BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292C00851D0FED3300849BAD /* 放淘宝页面效果 */,
+				292C009C1D0FED3300849BAD /* 放淘宝页面效果Tests */,
+				292C00A71D0FED3300849BAD /* 放淘宝页面效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292C00841D0FED3300849BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292C00971D0FED3300849BAD /* LaunchScreen.storyboard in Resources */,
+				292C00941D0FED3300849BAD /* Assets.xcassets in Resources */,
+				292C008F1D0FED3300849BAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292C009B1D0FED3300849BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292C00A61D0FED3300849BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292C00821D0FED3300849BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292C00921D0FED3300849BAD /* _______.xcdatamodeld in Sources */,
+				292C008C1D0FED3300849BAD /* ViewController.swift in Sources */,
+				292C008A1D0FED3300849BAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292C00991D0FED3300849BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292C00A21D0FED3300849BAD /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292C00A41D0FED3300849BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292C00AD1D0FED3300849BAD /* _______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		292C009F1D0FED3300849BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292C00851D0FED3300849BAD /* 放淘宝页面效果 */;
+			targetProxy = 292C009E1D0FED3300849BAD /* PBXContainerItemProxy */;
+		};
+		292C00AA1D0FED3300849BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292C00851D0FED3300849BAD /* 放淘宝页面效果 */;
+			targetProxy = 292C00A91D0FED3300849BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		292C008D1D0FED3300849BAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292C008E1D0FED3300849BAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		292C00951D0FED3300849BAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292C00961D0FED3300849BAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292C00AF1D0FED3300849BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		292C00B01D0FED3300849BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292C00B21D0FED3300849BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "放淘宝页面效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuliang.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		292C00B31D0FED3300849BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "放淘宝页面效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuliang.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		292C00B51D0FED3300849BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "放淘宝页面效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuliang.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/放淘宝页面效果.app/放淘宝页面效果";
+			};
+			name = Debug;
+		};
+		292C00B61D0FED3300849BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "放淘宝页面效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuliang.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/放淘宝页面效果.app/放淘宝页面效果";
+			};
+			name = Release;
+		};
+		292C00B81D0FED3300849BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "放淘宝页面效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuliang.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "放淘宝页面效果";
+			};
+			name = Debug;
+		};
+		292C00B91D0FED3300849BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "放淘宝页面效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuliang.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "放淘宝页面效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292C00811D0FED3300849BAD /* Build configuration list for PBXProject "放淘宝页面效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292C00AF1D0FED3300849BAD /* Debug */,
+				292C00B01D0FED3300849BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292C00B11D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292C00B21D0FED3300849BAD /* Debug */,
+				292C00B31D0FED3300849BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		292C00B41D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292C00B51D0FED3300849BAD /* Debug */,
+				292C00B61D0FED3300849BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		292C00B71D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292C00B81D0FED3300849BAD /* Debug */,
+				292C00B91D0FED3300849BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		292C00901D0FED3300849BAD /* _______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				292C00911D0FED3300849BAD /* _______.xcdatamodel */,
+			);
+			currentVersion = 292C00911D0FED3300849BAD /* _______.xcdatamodel */;
+			path = "_______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 292C007E1D0FED3300849BAD /* Project object */;
+}
