@@ -15,6 +15,8 @@
 		292C00971D0FED3300849BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292C00951D0FED3300849BAD /* LaunchScreen.storyboard */; };
 		292C00A21D0FED3300849BAD /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00A11D0FED3300849BAD /* _______Tests.swift */; };
 		292C00AD1D0FED3300849BAD /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00AC1D0FED3300849BAD /* _______UITests.swift */; };
+		292C00BB1D0FEF1800849BAD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00BA1D0FEF1800849BAD /* RootViewController.swift */; };
+		292C00BE1D0FEF4900849BAD /* YLPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C00BD1D0FEF4900849BAD /* YLPopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		292C00A81D0FED3300849BAD /* 放淘宝页面效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "放淘宝页面效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		292C00AC1D0FED3300849BAD /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
 		292C00AE1D0FED3300849BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292C00BA1D0FEF1800849BAD /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		292C00BD1D0FEF4900849BAD /* YLPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLPopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 		292C00881D0FED3300849BAD /* 放淘宝页面效果 */ = {
 			isa = PBXGroup;
 			children = (
+				292C00BC1D0FEF3300849BAD /* YLPop */,
 				292C00891D0FED3300849BAD /* AppDelegate.swift */,
 				292C008B1D0FED3300849BAD /* ViewController.swift */,
+				292C00BA1D0FEF1800849BAD /* RootViewController.swift */,
 				292C008D1D0FED3300849BAD /* Main.storyboard */,
 				292C00931D0FED3300849BAD /* Assets.xcassets */,
 				292C00951D0FED3300849BAD /* LaunchScreen.storyboard */,
@@ -126,6 +132,14 @@
 				292C00AE1D0FED3300849BAD /* Info.plist */,
 			);
 			path = "放淘宝页面效果UITests";
+			sourceTree = "<group>";
+		};
+		292C00BC1D0FEF3300849BAD /* YLPop */ = {
+			isa = PBXGroup;
+			children = (
+				292C00BD1D0FEF4900849BAD /* YLPopViewController.swift */,
+			);
+			path = YLPop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292C00BE1D0FEF4900849BAD /* YLPopViewController.swift in Sources */,
 				292C00921D0FED3300849BAD /* _______.xcdatamodeld in Sources */,
 				292C008C1D0FED3300849BAD /* ViewController.swift in Sources */,
+				292C00BB1D0FEF1800849BAD /* RootViewController.swift in Sources */,
 				292C008A1D0FED3300849BAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +502,7 @@
 				292C00B31D0FED3300849BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		292C00B41D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +511,7 @@
 				292C00B61D0FED3300849BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		292C00B71D0FED3300849BAD /* Build configuration list for PBXNativeTarget "放淘宝页面效果UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +520,7 @@
 				292C00B91D0FED3300849BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
